@@ -14,7 +14,6 @@ using AzureWebTest.Models;
 namespace AzureWebTest.Controllers
 {
     [Authorize]
-    [InitializeSimpleMembership]
     public class AccountController : Controller
     {
         //
