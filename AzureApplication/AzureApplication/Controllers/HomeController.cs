@@ -19,7 +19,7 @@ namespace AzureApplication.Controllers
                 return View(user);
             }
 
-            return View("Error");
+            return View("Error on the page");
         }
 
         // This action will handle the redirects from FacebookAuthorizeFilter when 
